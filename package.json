@@ -1,0 +1,30 @@
+{
+  "name": "dataex",
+  "version": "1.0.0",
+  "description": "Blockchain Secured Data Exchange Platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "dont_have_one"
+  },
+  "keywords": [
+    "blockchain",
+    "data",
+    "exchange"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cors": "^2.8.4",
+    "nodemon": "^1.14.12"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "fabric-ca-client": "1.0.2",
+    "fabric-client": "1.0.2"
+  }
+}
